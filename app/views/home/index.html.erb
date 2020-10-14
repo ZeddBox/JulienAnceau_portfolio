@@ -1,0 +1,37 @@
+<div class="well" id="well">
+  <div class="panel firstpage row">
+    <div class="column">
+      <p>Test</p>
+    </div>
+    <div class="column">
+      <h1>
+        <p class="typewrite">Hey, I'm <span class="underline u-shadow">Julien Anceau</span> !</p>
+        <p class="typewrite" data-period="2000" data-type='[ "I am a Web Developer.", "I love Ruby on Rails."]'>
+          <span class="wrap"></span>
+        </p>
+      </h1>
+    </div>
+    <div id="scrollbutton">
+      <a><span></span></a>
+    </div>
+  </div>
+
+  <div class="panel background-video row" id="waves">
+    <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="https://res.cloudinary.com/anceau-julien/video/upload/v1602522269/pexels_waves1_qfwgof.mp4" type="video/mp4">
+    </video>
+
+    <div class="column">
+      <span class="top">&uarr;</span>
+    </div>
+    <div class="column">
+        <ul class="menu">
+          <li><%= link_to "About Me", about_me_path, class:"menu-link" %></li>
+          <li><%= link_to "Portfolio", portfolio_path, class:"menu-link" %></li>
+          <li><%= link_to "Experiences", experiences_path, class:"menu-link" %></li>
+          <li><%= link_to "Contact", contact_path, class:"menu-link" %></li>
+        </ul>
+    </div>
+  </div>
+
+</div>
